@@ -1,3 +1,5 @@
+"use strict";
+
 let data = require("sdk/self").data;
 let { ToggleButton } = require("sdk/ui/button/toggle");
 let sidebarSdk = require("sdk/ui/sidebar");
