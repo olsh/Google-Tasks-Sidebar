@@ -1,0 +1,19 @@
+{
+    "name": "google-tasks-sidebar",
+    "title": "Google Tasks Sidebar",
+    "id": "jid1-XaymNizS8YE9JA",
+    "description": "Shows your Google tasks in a sidebar.",
+    "author": "Oleg Shevchenko",
+    "license": "MPL 2.0",
+    "version": "0.0.1",
+    "icon": "data/images/icon48.png",
+    "icon64": "data/images/icon64.png",
+    "preferences": [
+        {
+            "name": "simpleTasksView",
+            "title": "",
+            "type": "bool",
+            "value": false
+        }
+    ]
+}
