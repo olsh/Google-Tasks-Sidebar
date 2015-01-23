@@ -10,7 +10,7 @@
     "icon64": "data/images/icon64.png",
     "preferences": [
         {
-            "name": "simpleTasksView",
+            "name": "advancedTasksView",
             "title": "",
             "type": "bool",
             "value": false

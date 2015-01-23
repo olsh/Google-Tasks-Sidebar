@@ -25,7 +25,9 @@ appGlobal.sidebar = sidebarSdk.Sidebar({
     onAttach: function (worker) {
         worker.port.on("initialized", function() {
             worker.port.emit("loadTasks", {
-                url: prefs.simpleTasksView ? "https://mail.google.com/tasks/ig" : "https://mail.google.com/tasks/canvas"
+                url: prefs.advancedTasksView ?
+                    "https://mail.google.com/tasks/canvas" :
+                    "https://mail.google.com/tasks/ig"
             });
         });
     }
