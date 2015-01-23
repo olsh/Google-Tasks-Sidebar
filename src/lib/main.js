@@ -30,6 +30,10 @@ appGlobal.sidebar = sidebarSdk.Sidebar({
                     "https://mail.google.com/tasks/ig"
             });
         });
+    },
+    // Keeps button state in sync when the sidebar X is used to close
+    onHide: function () {
+        appGlobal.button.state("window", { checked: false });
     }
 });
 
