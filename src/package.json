@@ -4,6 +4,7 @@
     "id": "jid1-XaymNizS8YE9JA",
     "description": "Shows your Google tasks in a sidebar.",
     "author": "Oleg Shevchenko",
+    "contributors": ["Peter Roberts"],
     "license": "MPL 2.0",
     "version": "0.0.1",
     "icon": "data/images/icon48.png",
